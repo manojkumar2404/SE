@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {    
-    int array[100], maximum, n, c,;
+    int array[100], maximum, n, c;
     
     printf("Enter the number of elements in array\n");
     scanf("%d", &n);
@@ -18,7 +18,6 @@ int main()
         if (array[c] > maximum)
         {
                 maximum  = array[c];
-//                location = c+1;
         }
     }
     

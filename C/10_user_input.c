@@ -8,7 +8,8 @@ int main()
         printf("Enter number %d: ",i);
         scanf("%d", &num);
 
-        if (num % 2 == 0) {
+        if (num % 2 == 0) 
+		{
             even++;
             evensum += num;
         } 

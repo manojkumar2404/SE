@@ -7,8 +7,8 @@ int main()
 	cout<<"enter any no :"<<endl;
 	cin>>n;
 	
-	int sum;
-	for(int counter=1;counter<=n;counter++)
+	int sum,counter;
+	for(counter=1;counter<=n;counter++)
 	{
 		sum=sum+counter;
 	}

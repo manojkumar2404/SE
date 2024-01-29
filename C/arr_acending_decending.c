@@ -1,6 +1,6 @@
 #include<stdio.h>
-int array[100];
-int n,choice;
+int array[100],n,choice;
+
 void store()
 {
 	scanf("%d",&n);
@@ -11,12 +11,12 @@ void store()
 	}
 
 }
-void select()
-{
-	printf("Select from below options \n\n");
-	printf("1. Ascending Order \n2. Descending order");
-	scanf("%d",&choice);
-}
+//void select()
+//{
+//	printf("Select from below options \n\n");
+//	printf("1. Ascending Order \n2. Descending order");
+//	scanf("%d",&choice);
+//}
 void ascending()
 {
 	int t = 0;
@@ -61,7 +61,7 @@ int main()
 {
 	printf("Enter total elements of array : ");
 	store();
-	select();
+//	select();
 	if(choice == 1)
 	{
 		ascending();

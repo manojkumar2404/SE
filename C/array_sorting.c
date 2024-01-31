@@ -32,5 +32,9 @@ int main()
 	{
 		printf("%d index %d value \n ",num[i]);
 	}
+	
+	
+	
+	
 	return 0;
 }

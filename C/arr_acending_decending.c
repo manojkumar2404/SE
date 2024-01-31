@@ -11,12 +11,12 @@ void store()
 	}
 
 }
-//void select()
-//{
-//	printf("Select from below options \n\n");
-//	printf("1. Ascending Order \n2. Descending order");
-//	scanf("%d",&choice);
-//}
+void select()
+{
+	printf("Select from below options \n\n");
+	printf("1. Ascending Order \n2. Descending order \n3. max digit");
+	scanf("%d",&choice);
+}
 void ascending()
 {
 	int t = 0;
@@ -57,17 +57,45 @@ void descending()
 		printf("%d\n",array[i]);
 	}
 }
+
+void maxdigit()
+{
+	int c, maximum;
+
+	for (c=0; c<n; c++)
+	{
+    scanf("%d", &array[c]);
+    maximum = array[0];	
+	}
+    
+    for (c=1; c<n; c++)
+    {
+        if (array[c]>maximum)
+        {
+            maximum = array[c];
+        }
+    }
+    printf("Maximum element is %d.\n", maximum);
+}
 int main()
 {
 	printf("Enter total elements of array : ");
 	store();
-//	select();
+	select();
 	if(choice == 1)
 	{
 		ascending();
 	}
+	else if(choice == 2)
+	{
+		descending();	
+	}
+	else if(choice ==3)
+	{
+		maxdigit();
+	}
 	else
 	{
-		descending();
+		printf("enter valid choice");
 	}
 }

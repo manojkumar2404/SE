@@ -1,7 +1,7 @@
 #include <stdio.h>
 int swap(int a, int b) 
 {
-    a = a + b;
+    a +=b;
     b = a - b;
     a = a - b;
     printf("After swap: a = %d, b = %d\n",a,b);

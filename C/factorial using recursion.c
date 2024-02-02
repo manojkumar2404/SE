@@ -1,6 +1,5 @@
 #include<stdio.h>
-
-int m = 1;
+int m=1;
 void recursion(int n)
 {
 	if(n>0)

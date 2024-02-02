@@ -3,6 +3,7 @@ using namespace std;
  int main()
  {
  	int reverse=0 ,n;
+ 	cout<<"enter no. you want to reverse ";
  	cin>>n;
  	
  	while( n>0)

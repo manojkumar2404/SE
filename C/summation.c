@@ -19,7 +19,7 @@ int main()
 	{
         sum = -sum;
     }
-    printf("Summation is %d\n",sum);
+    printf("number sum is %d\n",sum);
 }
 
 

@@ -7,13 +7,18 @@ int main()
 	cout<<"enter any number ";
 	cin>>n;
 	
-	firstdigit = n;
 	lastdigit = n%10;
 	
-	for(firstdigit=n; firstdigit<=10; firstdigit=firstdigit/10)
+	while(n >=10)
+	{
+		n= n/10;
+	}
+	firstdigit = n;
 	
-		cout<<"first digit"<<n<<"is "<<firstdigit<<endl;
-		cout<<"last digit"<<n<<"is "<<lastdigit<<endl;
+	sum = firstdigit + lastdigit;
 	
-	cout<<"sum of first and last digit"<<n<<"is "<<firstdigit+lastdigit<<endl;
+	cout<<"sum of first and last digit = "<<sum;
+	
+	return 0;
 }
+

@@ -16,12 +16,12 @@ class in_line
 
 int main() 
 {
-    in_line m;
+    in_line l;
     float a,b;
     cout << "Enter two values:\n";
     cin >>a>>b;
-    cout <<"\nMultiplication value is:" << m.mul(a,b);
+    cout <<"\nMultiplication value is:" << l.mul(a,b);
     
-    cout <<"\n\nCube value is:"<< m.cube(a);
+    cout <<"\n\nCube value is:"<< l.cube(a);
 
 }

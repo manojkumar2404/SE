@@ -29,7 +29,7 @@ class calculator
 int main()
 {
 	int a,b;
-	cout<<"enter two no. ";
+ 	cout<<"enter two no. ";
 	cin>>a>>b;
 		
 	calculator c;

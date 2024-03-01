@@ -29,7 +29,7 @@ class formula
 int main()
 {
 	int choice;
-	cout<<"press 1 for rectangle \n 2 for triangle \n 3 for circle \n";
+	cout<<"press \n 1 for rectangle \n 2 for triangle \n 3 for circle \n";
 	cin>>choice;
 	
 	switch(choice)
@@ -39,13 +39,13 @@ int main()
 			obj.area();
 			break;
 		case 2:
-			obj.area(5,7);
+			obj.area(5,8);
 			break;
 		case 3:
-			obj.area(6);
+			obj.area(5);
 			break;
 		default:
-			cout<<"plz enter valid choice";			
-		break;
+			cout<<"enter valid choice!";
+			break;
 	}
 }

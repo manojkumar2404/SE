@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Pseudo</title>
+<head>
+  <style>
+    /* Default button style */
+    button {
+      background-color: blue;
+      color: white;
+    }
+    button:hover{
+        background-color: black;
+    }
+    
+    /* Active state */
+    button:active {
+      background-color: red;
+    }
+    
+    /* Focus state */
+    input:focus {
+      border: 10px solid red;
+    }
+  </style>
+</head>
+<body>
+  <button>Click me</button>
+  <br><br>
+  <input type="text" placeholder="Type something">
+</body>
+</html>

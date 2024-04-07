@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+    <h2>Individual Registration</h2>
+    <br>
+    <div class="mainbox">
+        <form action="" method="post" enctype="multipart/form-data" >
+            <h3>
+                User Particulars
+            </h3>
+            <div class="firstbox">
+                <label for="loginid">Login-Id :</label>
+                <input type="text" placeholder="Enter your login-id" id="loginid" name="login-id" required >
+                <br>
+                <label for="password">Password :</label>
+                <input type="text" placeholder="Enter your Password" id="password" name="password" required >
+                <br>
+                <label for="cpassword">Confirm Password :</label>
+                <input type="password" placeholder="Enter your password again" id="cpassword" name="cpassword" required >
+                <br>
+            </div>
+            <h3>
+                Personal Particulars
+            </h3>
+            <div class="secondbox">
+                <div class="leftsecondbox">
+                    <label for="salutation">Saturation :</label> 
+                    <select style="width: 100px; height: 22px;" name="salutation" id="sat_id" required>
+                        <option value="1">Select</option>
+                        <option value="2">Mr.</option>
+                        <option value="3">Mrs.</option>
+                        <option value="4">Ms.</option>
+                    </select>  
+                    <br> 
+                    <label for="middlename">Middle-Name :</label>
+                    <input type="text" placeholder="Enter your middle-name" id="middlename" name="middlename" required>  
+                    <br>
+                    <label for="res_id">Resident status :</label>
+                    <select style="width: 160px; height: 22px;" name="res_status" id="res_id" required>
+                        <option value="1">Select</option>
+                        <option value="2">Permanent residence</option>
+                        <option value="3">Temporary</option>
+                        <option value="4">none</option>
+                    </select>  
+                    <br>
+                    <label for="email">Email :</label>
+                    <input type="email" placeholder="Enter your Email" id="email" name="email" required>  
+                </div>
+                <div class="rightsecondbox">
+                    <label for="firstname">First-Name :</label>
+                    <input type="text" placeholder="Enter your first-name" id="firstname" name="firstname" required>  
+                    <br>
+                    <label for="lastname">Last Name :</label>
+                    <input type="text" placeholder="Enter your last-name" id="lastname" name="lastname" required>  
+                    <br>
+                    <label for="country_id">Country :</label>
+                    <select style="width: 100px; height: 22px;" name="countryname" id="country_id" required>
+                        <option value="1">Select</option>
+                        <option value="2">India</option>
+                        <option value="3">Nepal</option>
+                        <option value="4">Bhutan</option>
+                        <option id="5" value="5" >Other</option>
+                    </select>
+                    <br>
+                    <label for="mobile">Mobile Number :</label>
+                    <input type="text" placeholder="Enter your Mobile number" id="mobile" name="mobile" required>  
+                    
+                </div>
+            </div>
+            <h3>
+                Accouont Particulars
+            </h3>
+            <div class="thirdbox">
+                <div class="leftthirdbox">
+                    <label for="acc_no">15 Digit Account NO :</label> 
+                    <input type="text" placeholder="Enter your 15 Digit Account number" id="acc_no" name="acc_no" required>  
+                    <br>
+                    <label for="fund_id">Fund Transfer :</label>
+                    <select style="width: 160px; height: 22px;" name="fund_id" id="fund_id" required>
+                        <option value="1">Select</option>
+                        <option value="2">Online</option>
+                        <option value="3">Cheque</option>
+                    </select>  
+                    <br>
+                </div>
+                <div class="rightthirdbox">
+                    <label for="nick">Nick Name :</label>
+                    <input type="text" placeholder="Enter your Nickname" id="nick" name="nick" required>  
+                </div>
+            </div>
+            <h3>
+                Declaration
+            </h3>
+            <div class="fourthbox">
+                <p>I have read, understood and hearby agree to the Terms and Conditions in respect of all products and channels.
+                 <br>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on requesr at any IOB branches.
+                <br>I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively.
+                <br>I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.
+                </p>
+            </div>
+            <br><br>
+            <div class="finalbox">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

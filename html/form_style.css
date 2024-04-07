@@ -1,0 +1,124 @@
+h2{
+    background-color: #27B8F7;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #AE1242;
+    padding: 10px;
+    font-size: 30px;
+}
+.mainbox{
+
+    background-color: aqua;
+    border: "3px" solid #AE1242 ;
+    padding-bottom: 20px;
+    
+}
+label::before{
+    content: "*";
+    color: red;
+}
+    
+
+.form{
+    background-color: black;
+}
+h3{
+    padding-top:30px;
+    color: #AE1242;
+}
+.firstbox{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+}
+.firstbox label{
+    width: 250px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.firstbox input{
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    height: 30px;
+    width: 260px;
+}
+.secondbox{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+
+}
+.leftsecondbox label{
+    width: 250px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.secondbox input{
+        height: 20px;
+        width: 250px;
+    }
+.rightsecondbox{
+    padding-right: 150px;
+}
+.rightsecondbox label{
+    width: 250px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.thirdbox{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+
+}
+.leftthirdbox label{
+    width: 140px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.thirdbox input{
+        height: 20px;
+        width: 250px;
+        margin-bottom: 7px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+    }
+.rightthirdbox{
+    padding-right: 150px;
+}
+.rightthirdbox label{
+    width: 250px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.fourthbox p{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 550;   
+}
+.finalbox {
+    display: flex;
+    justify-content: center;
+}
+.finalbox button{
+    margin-right:10px ;
+    background-color: #0680f3;
+    color: white;
+    border-radius: 0.5rem;
+    height: 30px;
+    width: 80px;
+}

@@ -1,0 +1,22 @@
+
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: purple;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: green;
+  }
+  
+  a:focus {
+    outline: 2px solid orange;
+  }

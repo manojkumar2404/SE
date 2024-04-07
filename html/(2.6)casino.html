@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            color: white;
+            font-size: larger;
+        }
+        td{
+            color: white;
+            font-size: larger;
+            font-weight: 600;
+            padding: 30px 30px 30px 30px;
+        }
+        th{
+            padding: 30px 30px 30px 30px;
+        }
+        tr:nth-child(odd) td:nth-child(odd){
+
+            background-color: #000;
+        }
+        tr:nth-child(odd) td:nth-child(even){
+
+            background-color: red;
+        }
+        tr:nth-of-type(even) td:nth-child(odd) {
+            background-color: #020101;
+        }
+        tr:nth-of-type(even) td:nth-child(even) {
+            background-color: red;
+        }
+    
+    </style>
+</head>
+<body style="background-color: rgb(82, 180, 44); padding-bottom: 100px;">
+    <table border="1px " style="margin: auto; border-spacing: 0px; border: solid white; ">
+        <caption style="font-family: 'Times New Roman', Times, serif; font-size: 30px;">
+            <h1> European Roulette</h1>
+        </caption>
+        <tbody>
+            <tr>
+                <th rowspan="5">0</th>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+                <td>12</td>
+                <td>15</td>
+                <td>18</td>
+                <td>21</td>
+                <td>24</td>
+                <td>27</td>
+                <td>30</td>
+                <td>33</td>
+                <td>36</td>
+                <th>2to1</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>8</td>
+                <td>11</td>
+                <td>14</td>
+                <td>17</td>
+                <td>20</td>
+                <td>23</td>
+                <td>26</td>
+                <td>29</td>
+                <td>32</td>
+                <td>35</td>
+                <th>2to1</th>
+            </tr>
+            <tr class="unk" >
+                <td style="background-color: red;">1</td>
+                <td style="background-color: #000;">4</td>
+                <td style="background-color: red;">7</td>
+                <td style="background-color: #000;">10</td>
+                <td style="background-color: red;">13</td>
+                <td style="background-color: #000;">16</td>
+                <td style="background-color: red;">19</td>
+                <td style="background-color: #000;">22</td>
+                <td style="background-color: red;">25</td>
+                <td style="background-color: #000;">28</td>
+                <td style="background-color: red;">31</td>
+                <td style="background-color: #000;">34</td>
+                <th>2to1</th>
+            </tr>
+            <tr>
+               <th colspan="4">1st12</th>
+               <th colspan="4">2nd12</th>
+               <th colspan="4">3rd12</th>
+            </tr>
+            <tr>
+               <th colspan="2">1to18</th>
+               <th colspan="2">EVEN</th>
+               <th colspan="2" style="background-color: red;"></th>
+               <th colspan="2" style="background-color: #000;"></th>
+               <th colspan="2">ODD</th>
+               <th colspan="2">19to36</th>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
